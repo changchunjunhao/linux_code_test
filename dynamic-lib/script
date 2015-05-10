@@ -1,0 +1,4 @@
+gcc -shared -fpic -o libtest.so hello.c
+gcc -c main.c
+export LD_LIBRARY_PATH=.:$LD_LIBRARY_PATH 
+gcc -o main main.o -L. -ltest.so
