@@ -1,0 +1,15 @@
+Script started on Mon 11 May 2015 22:16:03 CST
+]0;zheng@zheng-ThinkPad-Edge-E430: ~/zheng/code/linux/functionzheng@zheng-ThinkPad-Edge-E430:~/zheng/code/linux/function$ $[Kcat e xport_test.sh
+#!/bin/sh
+
+export ZHENG="/helloworld"
+]0;zheng@zheng-ThinkPad-Edge-E430: ~/zheng/code/linux/functionzheng@zheng-ThinkPad-Edge-E430:~/zheng/code/linux/function$ ba[K[K$ZHEN G
+]0;zheng@zheng-ThinkPad-Edge-E430: ~/zheng/code/linux/functionzheng@zheng-ThinkPad-Edge-E430:~/zheng/code/linux/function$ bash  export_test.sh
+]0;zheng@zheng-ThinkPad-Edge-E430: ~/zheng/code/linux/functionzheng@zheng-ThinkPad-Edge-E430:~/zheng/code/linux/function$ $ZHEN G
+]0;zheng@zheng-ThinkPad-Edge-E430: ~/zheng/code/linux/functionzheng@zheng-ThinkPad-Edge-E430:~/zheng/code/linux/function$ ./[K ./e xporty[K_test.sh
+]0;zheng@zheng-ThinkPad-Edge-E430: ~/zheng/code/linux/functionzheng@zheng-ThinkPad-Edge-E430:~/zheng/code/linux/function$ . ./exxport_test.sh[A]0;zheng@zheng-ThinkPad-Edge-E430: ~/zheng/code/linux/functionzheng@zheng-ThinkPad-Edge-E430:~/zheng/code/linux/function$ $ZHENG[K
+bash: /helloworld: No such file or directory
+]0;zheng@zheng-ThinkPad-Edge-E430: ~/zheng/code/linux/functionzheng@zheng-ThinkPad-Edge-E430:~/zheng/code/linux/function$ exit
+exit
+
+Script done on Mon 11 May 2015 22:17:23 CST
