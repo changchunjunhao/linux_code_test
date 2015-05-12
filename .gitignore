@@ -3,11 +3,13 @@
 *#
 *~
 *.out
+*.unfinish
 
 */*.o
 */*.so
 */*#
 */*~
 */*.out
+*/*.unfinish
 
 git_usage
