@@ -4,6 +4,7 @@
 *~
 *.out
 *.unfinish
+*.data
 
 */*.o
 */*.so
@@ -11,5 +12,6 @@
 */*~
 */*.out
 */*.unfinish
+*/*.data
 
 git_usage
