@@ -1,0 +1,33 @@
+#!/bin/bash
+
+function display() 
+{
+  echo 
+
+  echo "abc.soft"
+  cat abc.soft
+
+  echo 
+
+  echo "abc.hard"
+  cat abc.hard
+}
+
+echo "hello can you see me" > abc.temp
+
+ln -s abc.temp abc.soft
+ln abc.temp abc.hard
+
+ls -il
+
+display
+
+read -p "continue?" tmp
+
+rm abc.temp
+ls -il
+
+display
+
+rm abc.hard
+rm abc.soft
