@@ -8,6 +8,12 @@
 int main()
 {
   int fildes = open("temp.file", O_WRONLY|O_APPEND|O_CREAT);
-  write (fildes, "hello world\n", 12);
+  int count = 0x100000;
+  while(count > 0)
+  {
+    write (fildes, "hello world\n", 12);
+    count --;
+  }
+
   close(fildes);
 }
