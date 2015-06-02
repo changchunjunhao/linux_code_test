@@ -6,7 +6,9 @@
 int main()
 {
   int fildes = open("temp.file", O_WRONLY|O_APPEND);
-  
+  //char word[128];
+  //sprintf(word, "file description of temp.file is %d\n", fildes);
+  //write (1, word, 128);
   if (fildes == -1)
   {
     write(2, "An error occurs when open temp.file\n", 100);
